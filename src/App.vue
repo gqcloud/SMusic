@@ -7,7 +7,7 @@ import { test } from '@/services/modules/home'
 import { onMounted } from 'vue'
 
 onMounted(async () => {
-  const res = await test(10)
+  const res = await test()
   console.log(res)
 })
 </script>

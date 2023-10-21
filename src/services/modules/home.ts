@@ -1,8 +1,8 @@
 import qqRequest from '..'
 
-export const test = (limit: number) => {
+export const test = () => {
   return qqRequest.request({
     method: 'get',
-    url: `/hot/topic?limit=${limit}&offset=30`
+    url: `hotlist?type=bili`
   })
 }
